@@ -1,0 +1,19 @@
+Self Replica
+
+Technical specification
+
+How it works:
+Application purpose is to create GitHub repository with source code and documentation.
+It works as simple web-application.
+After installation you have to launch it by running Python script that starts HTTP-server.
+Then all user interaction takes place in web browser.
+By default you should use http://localhost:8080 link.
+Firstly, submit you GitHub login, password and repository name.
+Secondly and finally, application creates new repository and upload files contains Self Replica with documentation into newly created repository.
+If it has already exists, you get a notification.
+
+Used technologies:
+1. Python 3.6 (tested on it)
+2. Standard Python library
+3. github3.py library used to get access to GitHub via API v3
+4. HTML pages with Bootstrap4 styling as UI.
