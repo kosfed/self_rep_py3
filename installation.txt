@@ -1,0 +1,22 @@
+Application creating self-replicated GitHub repository
+
+Installation notes:
+1. Please check if you already have installed Python 3.6, otherwise follow by provided link to setup it:
+    https://wiki.python.org/moin/BeginnersGuide/Download
+    You can use any other Python 3 distribution but this application was tested only on 3.6 version.
+
+2. Please install additional library via pip:
+    pip install github3.py
+    Link to documentation: https://github3.readthedocs.io/en/develop/#installation
+
+3. Now you can run the application. Open console or terminal and go to the folder contains app files and run next command:
+    python self_replica.py
+    It launches very simple HTTP-server on your computer. To stop it press Ctrl+C in command prompt.
+    If it doesn't work on port 8080, you can change it by passing into previous command (for example 8000):
+    python self_replica.py 8000
+    Use changed port number in next step.
+
+4. Open browser and enter into address bar URL:
+    localhost:8080
+
+5. Follow instructions displayed on opened page.
